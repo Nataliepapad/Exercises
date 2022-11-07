@@ -1,3 +1,17 @@
+import AreaCalculator.AreaCalculator;
+import Converters.FeetAndInchesToCentimeters;
+import Converters.MegaBytesConverter;
+import Converters.SecondsAndMinutes;
+import Converters.SpeedConverter;
+import DecimalComparator.DecimalComparator;
+import EqualSumPrinter.EqualSumChecker;
+import EqualityPrinter.EqualityPrinter;
+import LeapYear.LeapYear;
+import MinutesToYearsAndDaysCalculator.MinutesToYearsAndDaysCalculator;
+import PlayingCat.PlayingCat;
+import ShouldWakeUp.ShouldWakeUp;
+import TeenNumberChecker.TeenNumberChecker;
+
 public class App {
     public static void app(){
         // Area Calculator Testing

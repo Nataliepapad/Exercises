@@ -1,3 +1,5 @@
+package Converters;
+
 public class MegaBytesConverter {
     public static void printMegaBytesAndKiloBytes(int kiloBytes){
         int megabytes = kiloBytes/1024;

@@ -1,3 +1,5 @@
+package Converters;
+
 public class SecondsAndMinutes {
     private static final String INVALID_MESSAGE = "Invalid Value";
     public static String getDurationString (int minutes, int seconds){
