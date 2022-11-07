@@ -1,5 +1,5 @@
 public class App {
-    public static void App(){
+    public static void app(){
         // Area Calculator Testing
         System.out.println("Area Calculator");
         System.out.println(AreaCalculator.area(5,6));
@@ -94,8 +94,19 @@ public class App {
         System.out.println("Should Wake Up");
         System.out.println(ShouldWakeUp.shouldWakeUp(true,5));
         System.out.println(ShouldWakeUp.shouldWakeUp(false,5));
+        System.out.println(ShouldWakeUp.shouldWakeUp(false,12));
         System.out.println(ShouldWakeUp.shouldWakeUp(true,-1));
         System.out.println(ShouldWakeUp.shouldWakeUp(true,22));
+        System.out.println(ShouldWakeUp.shouldWakeUp(true,23));
+        System.out.println("-----------------------");
+
+        // Playing Cat Testing
+        System.out.println("Playing Cat");
+        System.out.println(PlayingCat.isCatPlaying(true,5));
+        System.out.println(PlayingCat.isCatPlaying(true,45));
+        System.out.println(PlayingCat.isCatPlaying(false,30));
+        System.out.println(PlayingCat.isCatPlaying(false,25));
+        System.out.println(PlayingCat.isCatPlaying(false,10));
         System.out.println("-----------------------");
     }
 }
